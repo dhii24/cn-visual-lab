@@ -1,0 +1,14 @@
+/* Tailwind will be added later */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Tailwind safelist for JS-added classes */
+@layer utilities {
+  .bg-yellow-500 {}
+  .bg-purple-600 {}
+  .bg-green-600 {}
+  .bg-blue-600 {}
+  .bg-red-600 {}
+}

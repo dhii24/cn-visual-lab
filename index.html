@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CN Visual Lab</title>
+    <link href="./styles/output.css" rel="stylesheet" />
+  </head>
+
+  <body class="bg-gray-900 text-white min-h-screen p-6">
+    <h1 class="text-3xl font-bold mb-6 text-center">🌐 HTTP Request Flow</h1>
+
+    <div class="max-w-4xl mx-auto grid grid-cols-3 gap-6 text-center">
+      <!-- Client -->
+      <div id="client" class="border border-gray-600 rounded-lg p-6">
+        <h2 class="text-xl font-semibold mb-2">Client</h2>
+        <p class="text-gray-400">Browser</p>
+      </div>
+
+      <!-- Arrow -->
+      <div class="flex items-center justify-center">
+        <span class="text-2xl">➡️</span>
+      </div>
+
+      <!-- Server -->
+      <div id="server" class="border border-gray-600 rounded-lg p-6">
+        <h2 class="text-xl font-semibold mb-2">Server</h2>
+        <p class="text-gray-400">Backend</p>
+      </div>
+    </div>
+
+    <div class="text-center mt-8">
+      <button
+        id="sendBtn"
+        class="bg-blue-600 hover:bg-blue-700 px-6 py-2 rounded font-semibold"
+      >
+        Send HTTP Request
+      </button>
+    </div>
+
+    <p id="status" class="text-center mt-6 text-gray-300"></p>
+
+    <hr class="my-12 border-gray-700" />
+
+    <h1 class="text-3xl font-bold mb-6 text-center">🌍 DNS Resolution</h1>
+
+    <div class="max-w-4xl mx-auto grid grid-cols-3 gap-6 text-center">
+      <!-- Client -->
+      <div id="dns-client" class="border border-gray-600 rounded-lg p-6">
+        <h2 class="text-xl font-semibold mb-2">Client</h2>
+        <p class="text-gray-400">example.com</p>
+      </div>
+
+      <!-- DNS -->
+      <div id="dns-server" class="border border-gray-600 rounded-lg p-6">
+        <h2 class="text-xl font-semibold mb-2">DNS Server</h2>
+        <p class="text-gray-400">Resolver</p>
+      </div>
+
+      <!-- IP -->
+      <div id="dns-ip" class="border border-gray-600 rounded-lg p-6">
+        <h2 class="text-xl font-semibold mb-2">IP Address</h2>
+        <p class="text-gray-400">93.184.216.34</p>
+      </div>
+    </div>
+
+    <div class="text-center mt-8">
+      <button
+        id="dnsBtn"
+        class="bg-purple-600 hover:bg-purple-700 px-6 py-2 rounded font-semibold"
+      >
+        Resolve DNS
+      </button>
+    </div>
+
+    <p id="dnsStatus" class="text-center mt-6 text-gray-300"></p>
+
+    <hr class="my-12 border-gray-700" />
+
+    <h1 class="text-3xl font-bold mb-6 text-center">🤝 TCP 3-Way Handshake</h1>
+
+    <div class="max-w-4xl mx-auto grid grid-cols-2 gap-10 text-center">
+      <!-- Client -->
+      <div id="tcp-client" class="border border-gray-600 rounded-lg p-8">
+        <h2 class="text-xl font-semibold mb-2">Client</h2>
+        <p class="text-gray-400">Initiates connection</p>
+      </div>
+
+      <!-- Server -->
+      <div id="tcp-server" class="border border-gray-600 rounded-lg p-8">
+        <h2 class="text-xl font-semibold mb-2">Server</h2>
+        <p class="text-gray-400">Responds</p>
+      </div>
+    </div>
+
+    <div class="text-center mt-8">
+      <button
+        id="tcpBtn"
+        class="bg-green-600 hover:bg-green-700 px-6 py-2 rounded font-semibold"
+      >
+        Start Handshake
+      </button>
+    </div>
+
+    <p id="tcpStatus" class="text-center mt-6 text-gray-300"></p>
+
+    <hr class="my-12 border-gray-700" />
+
+    <h1 class="text-3xl font-bold mb-6 text-center">
+      📡 HTTP Status Code Explorer
+    </h1>
+
+    <div class="max-w-xl mx-auto text-center">
+      <select
+        id="statusSelect"
+        class="w-full p-3 rounded bg-gray-800 border border-gray-600 mb-4"
+      >
+        <option value="">Select Status Code</option>
+        <option value="200">200 OK</option>
+        <option value="301">301 Moved Permanently</option>
+        <option value="404">404 Not Found</option>
+        <option value="500">500 Internal Server Error</option>
+      </select>
+
+      <div
+        id="statusBox"
+        class="hidden mt-6 p-6 rounded text-lg font-semibold"
+      ></div>
+    </div>
+
+    <script src="./js/app.js"></script>
+  </body>
+</html>
