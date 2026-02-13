@@ -36,4 +36,20 @@ This project is designed to help students and beginners understand how network c
 - Interpret HTTP status codes
 - Strengthen frontend + CN fundamentals
 
+  
+## 📸 Project Screenshots
+
+### 🔗 HTTP Connection 
+![HTTP Connection](screenshots/http-request-flow.png)
+
+### 🌐 DNS Resolver 
+![DNS Resolver](screenshots/dns-resolver.png)
+
+### 🤝 TCP 3-Way Handshake
+![TCP Handshake](screenshots/tcp-3-way-handshake.png)
+
+### 📊 HTTP Status Code Explorer
+![HTTP Status Codes](screenshots/http-status-code-explorer.png)
+
+
 
