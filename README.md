@@ -39,8 +39,8 @@ This project is designed to help students and beginners understand how network c
   
 ## 📸 Project Screenshots
 
-### 🔗 HTTP Connection 
-![HTTP Connection](screenshots/http-request-flow.png)
+### 🔗 HTTP Request Flow 
+![HTTP Request Flow](screenshots/http-request-flow.png)
 
 ### 🌐 DNS Resolver 
 ![DNS Resolver](screenshots/dns-resolver.png)
