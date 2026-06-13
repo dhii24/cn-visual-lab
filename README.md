@@ -6,6 +6,19 @@ This project is designed to help students and beginners understand how network c
 
 ---
 
+## 🚀 Live Demo
+
+🌐 **Live Website:** [Computer Networks Visual Lab](https://cn-visual-lab.vercel.app/)
+
+
+---
+
+## 📖 Project Overview
+
+Computer Networks Visual Lab is an educational web application that demonstrates how common networking processes work through interactive visualizations. It helps learners understand concepts such as DNS resolution, HTTP communication, TCP connection establishment, and HTTP status codes in a more intuitive way.
+
+---
+
 ## 🚀 Features
 
 - 📡 **HTTP Request Flow Visualization**
@@ -24,7 +37,7 @@ This project is designed to help students and beginners understand how network c
 - **HTML** — Structure
 - **Tailwind CSS** — Styling & animations
 - **JavaScript** — Logic & interactivity
-- **Computer Networks concepts**
+- **Computer Networks Fundamentals**
 
 ---
 
@@ -51,5 +64,17 @@ This project is designed to help students and beginners understand how network c
 ### 📊 HTTP Status Code Explorer
 ![HTTP Status Codes](screenshots/http-status-code-explorer.png)
 
+---
+
+## 🚀 Getting Started
+
+```bash
+git clone https://github.com/dhii24/cn-visual-lab.git
+cd cn-visual-lab
+```
+
+Open `index.html` in your browser to run the project locally.
+
+---
 
 
